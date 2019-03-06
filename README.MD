@@ -1,8 +1,8 @@
-##此api来源于[网易api](https://github.com/Binaryify/NeteaseCloudMusicApi)
-##特别感谢[Binaryify](https://github.com/Binaryify/NeteaseCloudMusicApi)提供此api
+## 此api来源于[网易api](https://github.com/Binaryify/NeteaseCloudMusicApi)
+## 特别感谢[Binaryify](https://github.com/Binaryify/NeteaseCloudMusicApi)提供此api
 
-##由于后端和webpack-server-dev的冲突原因，建议先使用```webpack ./public/main.js ./dist/bundle.js```  进行打包，然后执行node app.js
-##如果有想重写的同学可以删除==public==里面的所有内容，然后自己重写
+## 由于后端和webpack-server-dev的冲突原因，建议先使用```webpack ./public/main.js ./dist/bundle.js```  进行打包，然后执行node app.js
+## 如果有想重写的同学可以删除==public==里面的所有内容，然后自己重写
 ## 环境要求
 
 需要 NodeJS 8.12+ 环境
