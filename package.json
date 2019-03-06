@@ -1,0 +1,43 @@
+{
+  "name": "NeteaseCloudMusicApi",
+  "version": "3.4.0",
+  "description": "网易云音乐 NodeJS 版 API",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha -r intelli-espower-loader -t 20000 app.test.js --exit",
+    "dev": "webpack-dev-server --open --port 3000 --contentBase public"
+  },
+  "keywords": [
+    "网易云音乐",
+    "网易云",
+    "音乐",
+    "网易云音乐nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "apicache": "^1.2.1",
+    "express": "^4.16.3",
+    "mint-ui": "^2.2.13",
+    "pac-proxy-agent": "^3.0.0",
+    "request": "^2.85.0",
+    "vue": "^2.6.8",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^5.1.1",
+    "power-assert": "^1.5.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.8",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
